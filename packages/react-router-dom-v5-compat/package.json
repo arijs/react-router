@@ -1,6 +1,6 @@
 {
   "name": "@arijs/react-router-dom-v5-compat",
-  "version": "6.8.3-arijs.2",
+  "version": "6.8.3-arijs.3",
   "description": "Migration path to React Router v6 from v4/5",
   "keywords": [
     "react",
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "history": "^5.3.0",
-    "@arijs/react-router": "^6.8.3-arijs.2"
+    "@arijs/react-router": "^6.8.3-arijs.3"
   },
   "peerDependencies": {
     "react": ">=16.8",
