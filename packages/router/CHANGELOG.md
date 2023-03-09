@@ -1,5 +1,11 @@
 # `@remix-run/router`
 
+## 1.3.4-arijs.2
+
+### Patch Changes
+
+- It is required to release @arijs/remix-run-router, while we're at it, also release v5-compat pkg
+
 ## 1.3.3
 
 ### Patch Changes

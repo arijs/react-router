@@ -1,7 +1,7 @@
 {
   "name": "@arijs/react-router-dom",
   "access": "public",
-  "version": "6.8.3-arijs.1",
+  "version": "6.8.3-arijs.2",
   "description": "Declarative routing for React web applications",
   "keywords": [
     "react",
@@ -33,8 +33,8 @@
     }
   },
   "dependencies": {
-    "@arijs/remix-run-router": "1.3.3",
-    "@arijs/react-router": "6.8.3-arijs.1"
+    "@arijs/remix-run-router": "6.8.3-arijs.2",
+    "@arijs/react-router": "6.8.3-arijs.2"
   },
   "devDependencies": {
     "react": "^18.2.0",

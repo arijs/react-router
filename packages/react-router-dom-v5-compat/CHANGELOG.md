@@ -1,5 +1,11 @@
 # `react-router-dom-v5-compat`
 
+## 6.8.3-arijs.2
+
+### Patch Changes
+
+- It is required to release @arijs/remix-run-router, while we're at it, also release v5-compat pkg
+
 ## 6.8.2
 
 ### Patch Changes

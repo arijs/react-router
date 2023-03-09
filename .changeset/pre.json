@@ -6,10 +6,13 @@
     "@arijs/react-router-dom": "6.8.2",
     "react-router-dom-v5-compat": "6.8.2",
     "react-router-native": "6.8.2",
-    "@remix-run/router": "1.3.3"
+    "@remix-run/router": "1.3.3",
+    "@arijs/react-router-dom-v5-compat": "6.8.2",
+    "@arijs/remix-run-router": "1.3.3"
   },
   "changesets": [
     "brave-humans-invite",
-    "fifty-otters-destroy"
+    "fifty-otters-destroy",
+    "rude-ears-admire"
   ]
 }

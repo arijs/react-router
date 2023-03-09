@@ -1,6 +1,6 @@
 {
   "name": "@arijs/remix-run-router",
-  "version": "1.3.3",
+  "version": "1.3.4-arijs.2",
   "description": "Nested/Data-driven/Framework-agnostic Routing",
   "keywords": [
     "remix",
