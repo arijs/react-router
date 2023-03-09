@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
-import { MemoryRouter, Routes, Route, useLocation } from "react-router";
+import { MemoryRouter, Routes, Route, useLocation } from "@arijs/react-router";
 
 function ShowLocation() {
   let location = useLocation();

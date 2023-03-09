@@ -3,6 +3,8 @@ const fse = require("fs-extra");
 
 const PRETTY = !!process.env.PRETTY;
 
+const reRemoveArijsScope = /^@arijs\/react-router/i
+
 /**
  * Determine the relevant directories for a rollup build, relative to the
  * current working directory and taking LOCAL_BUILD_DIRECTORY into account
@@ -15,6 +17,7 @@ const PRETTY = !!process.env.PRETTY;
  * @param {string} [folderName] folder name (i.e., router). Defaults to package name
  */
 function getBuildDirectories(packageName, folderName) {
+  packageName = packageName.replace(reRemoveArijsScope, 'react-router')
   let ROOT_DIR = __dirname;
   let SOURCE_DIR = folderName
     ? path.join(__dirname, "packages", folderName)

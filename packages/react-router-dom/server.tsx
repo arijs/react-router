@@ -20,8 +20,8 @@ import type {
   Location,
   RouteObject,
   To,
-} from "react-router-dom";
-import { Routes } from "react-router-dom";
+} from "@arijs/react-router-dom";
+import { Routes } from "@arijs/react-router-dom";
 import {
   createPath,
   parsePath,
@@ -29,7 +29,7 @@ import {
   UNSAFE_DataRouterContext as DataRouterContext,
   UNSAFE_DataRouterStateContext as DataRouterStateContext,
   UNSAFE_enhanceManualRouteObjects as enhanceManualRouteObjects,
-} from "react-router-dom";
+} from "@arijs/react-router-dom";
 
 export interface StaticRouterProps {
   basename?: string;

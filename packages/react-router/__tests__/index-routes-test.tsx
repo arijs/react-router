@@ -1,4 +1,4 @@
-import { matchRoutes } from "react-router";
+import { matchRoutes } from "@arijs/react-router";
 
 describe("index route matching", () => {
   it("throws when the index route has children", () => {

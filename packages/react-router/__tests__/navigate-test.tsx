@@ -9,7 +9,7 @@ import {
   RouterProvider,
   createMemoryRouter,
   useLocation,
-} from "react-router";
+} from "@arijs/react-router";
 import { prettyDOM, render, screen, waitFor } from "@testing-library/react";
 
 describe("<Navigate>", () => {

@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
-import type { RouteObject } from "react-router";
-import { MemoryRouter, useRoutes } from "react-router";
+import type { RouteObject } from "@arijs/react-router";
+import { MemoryRouter, useRoutes } from "@arijs/react-router";
 
 describe("useRoutes", () => {
   it("returns the matching element from a route config", () => {

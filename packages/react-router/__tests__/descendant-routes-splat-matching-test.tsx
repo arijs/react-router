@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
-import { MemoryRouter, Outlet, Routes, Route, useParams } from "react-router";
+import { MemoryRouter, Outlet, Routes, Route, useParams } from "@arijs/react-router";
 import type { InitialEntry } from "@remix-run/router";
 
 describe("Descendant <Routes> splat matching", () => {

@@ -8,7 +8,7 @@ import type {
   RelativeRoutingType,
   RouteObject,
   To,
-} from "react-router";
+} from "@arijs/react-router";
 import {
   Router,
   createPath,
@@ -24,7 +24,7 @@ import {
   UNSAFE_NavigationContext as NavigationContext,
   UNSAFE_RouteContext as RouteContext,
   UNSAFE_enhanceManualRouteObjects as enhanceManualRouteObjects,
-} from "react-router";
+} from "@arijs/react-router";
 import type {
   BrowserHistory,
   Fetcher,
@@ -117,7 +117,7 @@ export type {
   Search,
   ShouldRevalidateFunction,
   To,
-} from "react-router";
+} from "@arijs/react-router";
 export {
   AbortedDeferredError,
   Await,
@@ -164,7 +164,7 @@ export {
   useRouteError,
   useRouteLoaderData,
   useRoutes,
-} from "react-router";
+} from "@arijs/react-router";
 
 ///////////////////////////////////////////////////////////////////////////////
 // DANGER! PLEASE READ ME!
@@ -187,7 +187,7 @@ export {
   UNSAFE_LocationContext,
   UNSAFE_RouteContext,
   UNSAFE_enhanceManualRouteObjects,
-} from "react-router";
+} from "@arijs/react-router";
 //#endregion
 
 declare global {

@@ -12,7 +12,7 @@ import {
   useLoaderData,
   useLocation,
   useMatches,
-} from "react-router-dom";
+} from "@arijs/react-router-dom";
 import {
   createStaticRouter,
   StaticRouterProvider,

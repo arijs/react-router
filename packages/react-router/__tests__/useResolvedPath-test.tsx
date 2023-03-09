@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
-import type { Path } from "react-router";
-import { MemoryRouter, Routes, Route, useResolvedPath } from "react-router";
+import type { Path } from "@arijs/react-router";
+import { MemoryRouter, Routes, Route, useResolvedPath } from "@arijs/react-router";
 
 function ShowResolvedPath({ path }: { path: string | Path }) {
   return <pre>{JSON.stringify(useResolvedPath(path))}</pre>;

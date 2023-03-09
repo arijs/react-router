@@ -16,6 +16,10 @@
     "skipLibCheck": true,
 
     "outDir": ".",
-    "rootDir": "."
+    "rootDir": ".",
+    "paths": {
+      "@arijs/react-router": ["../react-router/"],
+      "@arijs/react-router-dom": ["../react-router-dom/"]
+    }
   }
 }

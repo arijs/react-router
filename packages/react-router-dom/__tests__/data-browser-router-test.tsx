@@ -32,7 +32,7 @@ import {
   defer,
   useLocation,
   createRoutesFromElements,
-} from "react-router-dom";
+} from "@arijs/react-router-dom";
 
 testDomRouter("<DataBrowserRouter>", createBrowserRouter, (url) =>
   getWindowImpl(url, false)

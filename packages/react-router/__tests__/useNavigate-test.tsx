@@ -6,7 +6,7 @@ import {
   Route,
   useNavigate,
   useLocation,
-} from "react-router";
+} from "@arijs/react-router";
 
 describe("useNavigate", () => {
   it("navigates to the new location", () => {

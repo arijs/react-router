@@ -10,7 +10,7 @@ import {
 import "@testing-library/jest-dom";
 import type { FormMethod, Router, RouterInit } from "@remix-run/router";
 import { joinPaths } from "@remix-run/router";
-import type { RouteObject } from "react-router";
+import type { RouteObject } from "@arijs/react-router";
 import {
   Await,
   MemoryRouter,
@@ -33,7 +33,7 @@ import {
   useNavigation,
   useRevalidator,
   UNSAFE_DataRouterContext as DataRouterContext,
-} from "react-router";
+} from "@arijs/react-router";
 
 let router: Router | null = null;
 

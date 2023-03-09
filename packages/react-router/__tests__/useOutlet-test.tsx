@@ -6,7 +6,7 @@ import {
   Route,
   useOutlet,
   useOutletContext,
-} from "react-router";
+} from "@arijs/react-router";
 
 describe("useOutlet", () => {
   describe("when there is no child route", () => {
