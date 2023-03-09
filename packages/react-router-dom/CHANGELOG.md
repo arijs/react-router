@@ -1,5 +1,11 @@
 # `react-router-dom`
 
+## 6.8.3-arijs.4
+
+### Patch Changes
+
+- Add /server export map to react-router-dom
+
 ## 6.8.3-arijs.3
 
 ### Patch Changes

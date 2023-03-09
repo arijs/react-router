@@ -1,7 +1,7 @@
 {
   "name": "@arijs/react-router-dom",
   "access": "public",
-  "version": "6.8.3-arijs.3",
+  "version": "6.8.3-arijs.4",
   "description": "Declarative routing for React web applications",
   "keywords": [
     "react",
