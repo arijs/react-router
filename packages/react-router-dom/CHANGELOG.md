@@ -1,5 +1,13 @@
 # `react-router-dom`
 
+## 6.8.3-arijs.1
+
+### Patch Changes
+
+- Build the packages with the modifications from the source
+- Updated dependencies:
+  - `@arijs/react-router@6.8.3-arijs.1`
+
 ## 6.8.3-arijs.0
 
 ### Patch Changes
