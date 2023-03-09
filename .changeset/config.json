@@ -8,9 +8,7 @@
   "fixed": [
     [
       "@arijs/react-router",
-      "@arijs/react-router-dom",
-      "react-router-dom-v5-compat",
-      "react-router-native"
+      "@arijs/react-router-dom"
     ]
   ],
   "linked": [],
