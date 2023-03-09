@@ -1,5 +1,11 @@
 # `react-router`
 
+## 6.8.3-arijs.0
+
+### Patch Changes
+
+- Added export maps to package.json and .mjs extension for Node ES modules ([`09e78329`](https://github.com/arijs/react-router/commit/09e783294da72d0429a8d0cc5598c7c04ed27dad))
+
 ## 6.8.2
 
 ### Patch Changes
