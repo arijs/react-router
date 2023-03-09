@@ -8,8 +8,8 @@ import {
   queryByText,
 } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import type { FormMethod, Router, RouterInit } from "@remix-run/router";
-import { joinPaths } from "@remix-run/router";
+import type { FormMethod, Router, RouterInit } from "@arijs/remix-run-router";
+import { joinPaths } from "@arijs/remix-run-router";
 import type { RouteObject } from "@arijs/react-router";
 import {
   Await,

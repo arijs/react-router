@@ -19,7 +19,8 @@
     "rootDirs": ["."],
     "paths": {
       "@arijs/react-router": ["../react-router/"],
-      "@arijs/react-router-dom": ["../react-router-dom/"]
+      "@arijs/react-router-dom": ["../react-router-dom/"],
+      "@arijs/remix-run-router": ["../router/"]
     }
   }
 }

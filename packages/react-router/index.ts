@@ -20,7 +20,7 @@ import type {
   ShouldRevalidateFunction,
   To,
   InitialEntry,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import {
   AbortedDeferredError,
   Action as NavigationType,
@@ -36,7 +36,7 @@ import {
   parsePath,
   redirect,
   resolvePath,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 
 import type {
   AwaitProps,

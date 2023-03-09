@@ -1,4 +1,4 @@
-import type { FormEncType, FormMethod } from "@remix-run/router";
+import type { FormEncType, FormMethod } from "@arijs/remix-run-router";
 import type { RelativeRoutingType } from "@arijs/react-router";
 
 export const defaultMethod = "get";

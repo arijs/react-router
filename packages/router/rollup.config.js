@@ -31,7 +31,7 @@ function getRollupConfig(
       file: `${OUTPUT_DIR}/${filename}`,
       format,
       sourcemap: !PRETTY,
-      banner: createBanner("@remix-run/router", version),
+      banner: createBanner("@arijs/remix-run-router", version),
       ...(format === "umd" ? { name: "RemixRouter" } : {}),
     },
     plugins: [
@@ -67,7 +67,7 @@ function getRollupConfig(
 
 module.exports = function rollup() {
   return [
-    getRollupConfig("esm", "router.js", { includeTypesAndCopy: true }),
+    getRollupConfig("esm", "router.mjs", { includeTypesAndCopy: true }),
     getRollupConfig("cjs", "router.cjs.js"),
     getRollupConfig("umd", "router.umd.js"),
     getRollupConfig("umd", "router.umd.min.js", { minify: true }),

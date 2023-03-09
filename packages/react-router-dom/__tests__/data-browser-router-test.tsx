@@ -10,7 +10,7 @@ import {
 } from "@testing-library/react";
 import "@testing-library/jest-dom";
 
-import type { Router, RouterInit } from "@remix-run/router";
+import type { Router, RouterInit } from "@arijs/remix-run-router";
 import {
   Form,
   Link,

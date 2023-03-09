@@ -26,7 +26,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router", version),
       },
-      external: ["@remix-run/router", "react"],
+      external: ["@arijs/remix-run-router", "react"],
       plugins: [
         extensions({ extensions: [".tsx", ".ts"] }),
         babel({
@@ -60,7 +60,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router", version),
       },
-      external: ["@remix-run/router", "react"],
+      external: ["@arijs/remix-run-router", "react"],
       plugins: [
         extensions({ extensions: [".tsx", ".ts"] }),
         babel({
@@ -93,7 +93,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router", version),
       },
-      external: ["@remix-run/router", "react"],
+      external: ["@arijs/remix-run-router", "react"],
       plugins: [
         extensions({ extensions: [".tsx", ".ts"] }),
         babel({
@@ -139,12 +139,12 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router", version),
         globals: {
-          "@remix-run/router": "RemixRouter",
+          "@arijs/remix-run-router": "RemixRouter",
           react: "React",
         },
         name: "ReactRouter",
       },
-      external: ["@remix-run/router", "react"],
+      external: ["@arijs/remix-run-router", "react"],
       plugins: [
         extensions({ extensions: [".tsx", ".ts"] }),
         babel({
@@ -172,12 +172,12 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router", version),
         globals: {
-          "@remix-run/router": "RemixRouter",
+          "@arijs/remix-run-router": "RemixRouter",
           react: "React",
         },
         name: "ReactRouter",
       },
-      external: ["@remix-run/router", "react"],
+      external: ["@arijs/remix-run-router", "react"],
       plugins: [
         extensions({ extensions: [".tsx", ".ts"] }),
         babel({

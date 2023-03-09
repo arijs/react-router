@@ -35,7 +35,7 @@ import type {
   History,
   HydrationState,
   Router as RemixRouter,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import {
   createRouter,
   createBrowserHistory,
@@ -44,7 +44,7 @@ import {
   joinPaths,
   stripBasename,
   ErrorResponse,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 
 import type {
   SubmitOptions,

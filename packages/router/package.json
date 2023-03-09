@@ -1,5 +1,5 @@
 {
-  "name": "@remix-run/router",
+  "name": "@arijs/remix-run-router",
   "version": "1.3.3",
   "description": "Nested/Data-driven/Framework-agnostic Routing",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/remix-run/react-router",
+    "url": "https://github.com/arijs/react-router",
     "directory": "packages/router"
   },
   "license": "MIT",
@@ -19,6 +19,15 @@
   "unpkg": "./dist/router.umd.min.js",
   "module": "./dist/router.js",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "browser": "./dist/router.mjs",
+      "umd": "./dist/router.umd.min.js",
+      "import": "./dist/router.mjs",
+      "require": "./dist/router.cjs.js"
+    }
+  },
   "files": [
     "dist/",
     "*.ts",

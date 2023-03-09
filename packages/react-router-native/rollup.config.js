@@ -30,7 +30,7 @@ module.exports = function rollup() {
         "react",
         "react-native",
         "react-router",
-        "@remix-run/router",
+        "@arijs/remix-run-router",
       ],
       plugins: [
         babel({

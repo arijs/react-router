@@ -9,8 +9,8 @@ import type {
   StaticHandlerContext,
   To,
   TrackedPromise,
-} from "@remix-run/router";
-import type { Action as NavigationType } from "@remix-run/router";
+} from "@arijs/remix-run-router";
+import type { Action as NavigationType } from "@arijs/remix-run-router";
 
 // Create react-specific types from the agnostic types in @remix-run/router to
 // export from react-router

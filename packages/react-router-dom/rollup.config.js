@@ -26,7 +26,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router DOM", version),
       },
-      external: ["react", "react-dom", "@arijs/react-router", "@remix-run/router"],
+      external: ["react", "react-dom", "@arijs/react-router", "@arijs/remix-run-router"],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
         babel({
@@ -67,7 +67,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router DOM", version),
       },
-      external: ["react", "@arijs/react-router", "@remix-run/router"],
+      external: ["react", "@arijs/react-router", "@arijs/remix-run-router"],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
         babel({
@@ -95,7 +95,7 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router DOM", version),
       },
-      external: ["react", "@arijs/react-router", "@remix-run/router"],
+      external: ["react", "@arijs/react-router", "@arijs/remix-run-router"],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
         babel({
@@ -141,13 +141,13 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router DOM", version),
         globals: {
-          "@remix-run/router": "RemixRouter",
+          "@arijs/remix-run-router": "RemixRouter",
           react: "React",
           "@arijs/react-router": "ReactRouter",
         },
         name: "ReactRouterDOM",
       },
-      external: ["react", "@arijs/react-router", "@remix-run/router"],
+      external: ["react", "@arijs/react-router", "@arijs/remix-run-router"],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
         babel({
@@ -175,13 +175,13 @@ module.exports = function rollup() {
         sourcemap: !PRETTY,
         banner: createBanner("React Router DOM", version),
         globals: {
-          "@remix-run/router": "RemixRouter",
+          "@arijs/remix-run-router": "RemixRouter",
           react: "React",
           "@arijs/react-router": "ReactRouter",
         },
         name: "ReactRouterDOM",
       },
-      external: ["react", "@arijs/react-router", "@remix-run/router"],
+      external: ["react", "@arijs/react-router", "@arijs/remix-run-router"],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
         babel({
@@ -235,7 +235,7 @@ module.exports = function rollup() {
         "react",
         "react-dom/server",
         "@arijs/react-router-dom",
-        "@remix-run/router",
+        "@arijs/remix-run-router",
       ],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),
@@ -278,7 +278,7 @@ module.exports = function rollup() {
         "react",
         "react-dom/server",
         "@arijs/react-router-dom",
-        "@remix-run/router",
+        "@arijs/remix-run-router",
       ],
       plugins: [
         extensions({ extensions: [".ts", ".tsx"] }),

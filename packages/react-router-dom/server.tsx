@@ -5,7 +5,7 @@ import type {
   RevalidationState,
   Router as RemixRouter,
   StaticHandlerContext,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import {
   IDLE_BLOCKER,
   IDLE_FETCHER,
@@ -14,7 +14,7 @@ import {
   UNSAFE_invariant as invariant,
   isRouteErrorResponse,
   UNSAFE_convertRoutesToDataRoutes as convertRoutesToDataRoutes,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import type {
   DataRouteObject,
   Location,

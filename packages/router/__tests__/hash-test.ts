@@ -2,8 +2,8 @@
 
 import { JSDOM } from "jsdom";
 
-import type { HashHistory } from "@remix-run/router";
-import { createHashHistory } from "@remix-run/router";
+import type { HashHistory } from "@arijs/remix-run-router";
+import { createHashHistory } from "@arijs/remix-run-router";
 
 import Listen from "./TestSequences/Listen";
 import InitialLocationDefaultKey from "./TestSequences/InitialLocationDefaultKey";

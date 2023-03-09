@@ -16,6 +16,9 @@
     "skipLibCheck": true,
 
     "outDir": ".",
-    "rootDir": "."
+    "rootDir": ".",
+    "paths": {
+      "@arijs/remix-run-router": ["../router/"]
+    }
   }
 }

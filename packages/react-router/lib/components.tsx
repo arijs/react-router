@@ -7,7 +7,7 @@ import type {
   Router as RemixRouter,
   RouterState,
   To,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import {
   Action as NavigationType,
   AbortedDeferredError,
@@ -16,7 +16,7 @@ import {
   parsePath,
   stripBasename,
   warning,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import { useSyncExternalStore as useSyncExternalStoreShim } from "./use-sync-external-store-shim";
 
 import type {

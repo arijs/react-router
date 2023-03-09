@@ -4,8 +4,8 @@
 
 import * as React from "react";
 import * as ReactDOMServer from "react-dom/server";
-import type { StaticHandlerContext } from "@remix-run/router";
-import { json, createStaticHandler } from "@remix-run/router";
+import type { StaticHandlerContext } from "@arijs/remix-run-router";
+import { json, createStaticHandler } from "@arijs/remix-run-router";
 import {
   Link,
   Outlet,

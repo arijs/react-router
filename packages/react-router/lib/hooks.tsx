@@ -10,7 +10,7 @@ import type {
   PathPattern,
   Router as RemixRouter,
   To,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 import {
   Action as NavigationType,
   UNSAFE_invariant as invariant,
@@ -22,7 +22,7 @@ import {
   resolveTo,
   warning,
   UNSAFE_getPathContributingMatches as getPathContributingMatches,
-} from "@remix-run/router";
+} from "@arijs/remix-run-router";
 
 import type {
   NavigateOptions,
